@@ -84,4 +84,22 @@
 <li>📚 <em>Python Data Structures and Algorithms</em> by Benjamin Baka: <a href="https://www.packtpub.com/product/python-data-structures-and-algorithms/9781786467355">Packt Publishing</a></li>
 </ul>
 
+<h4>📦 Installation:</h4>
+
+<ol>
+<li>Ensure you have Python installed on your computer. You can download it from <a href="https://www.python.org/downloads/">here</a>.</li>
+<li>Navigate to the directory where you've saved the course files.</li>
+<li>Create a virtual environment to manage your project dependencies (recommended):</li>
+<pre><code>python -m venv .venv</code></pre>
+<li>Activate the virtual environment:</li>
+<ul>
+<li>On Windows: <pre><code>.venv\Scripts\activate</code></pre></li>
+<li>On macOS/Linux: <pre><code>source .venv/bin/activate</code></pre></li>
+</ul>
+<li>Install the required packages for data visualization using pip:</li>
+<pre><code>pip install matplotlib numpy</code></pre>
+<li>Start exploring the course content! Each section is organized in separate Python files.</li>
+</ol>
+
+
 <h3>🎉 Happy coding! </h3>
