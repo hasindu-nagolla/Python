@@ -56,8 +56,9 @@
 <h4>🗺️ Road Map:</h4>
 
 <div style="text-align: center;">
-    <img src="https://github.com/user-attachments/assets/2737334f-710c-409b-a580-8cc67088959a" style="border: 2px solid black; max-width: 100%; height: auto;">
+    <a href="https://roadmap.sh/python">Python Roadmap</a>
 </div>
+
 
 <h4>🛠️ Prerequisites:</h4>
 
