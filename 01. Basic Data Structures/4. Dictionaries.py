@@ -47,7 +47,8 @@ print(getValue2)
 myDictioanry4 = {1: 'A', 2: 'B', 3: 'C', 4: 'D'}
 print(myDictioanry4)
 
-del myDictioanry4[1]  # Delete the key 1 from the dictionary. we use key to delete the key-value pair. value is automatically deleted.
+# Delete the key 1 from the dictionary. we use key to delete the key-value pair. value is automatically deleted.
+del myDictioanry4[1]
 print(myDictioanry4)
 
 myDictioanry4.clear()  # Clear the dictionary.
@@ -70,3 +71,25 @@ print(getY)
 
 # see it, you do anything to y, it will affect the dictionary. but it will not affect if "a" is a basic data type. like integer.
 print(xDic)
+
+# ===============================================================================================
+
+# Dictionary of dictionaries.
+
+europe = {'spain': {'capital': 'madrid', 'population': 46.77},
+          'france': {'capital': 'paris', 'population': 66.03},
+          'germany': {'capital': 'berlin', 'population': 80.62},
+          'norway': {'capital': 'oslo', 'population': 5.084}
+          }
+
+# print the capital of france.
+print(europe['france']['capital'])
+
+# create sub-dictionary data.
+data = {'capital': 'colombo', 'population': 21.2}
+
+# add data to europe dictionary.
+europe['sri lanka'] = data
+
+# print europe dictionary.
+print(europe)
