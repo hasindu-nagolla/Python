@@ -47,7 +47,7 @@ print(getValue2)
 myDictioanry4 = {1: 'A', 2: 'B', 3: 'C', 4: 'D'}
 print(myDictioanry4)
 
-del myDictioanry4[1]  # Delete the key 1 from the dictionary.
+del myDictioanry4[1]  # Delete the key 1 from the dictionary. we use key to delete the key-value pair. value is automatically deleted.
 print(myDictioanry4)
 
 myDictioanry4.clear()  # Clear the dictionary.
