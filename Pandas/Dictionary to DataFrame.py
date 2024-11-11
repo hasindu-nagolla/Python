@@ -12,7 +12,20 @@ cpc = [809, 731, 588, 18, 200, 70, 45]
 data = {'Country Name': names, 'Drive Side': driveSide, 'Cars Per Capita': cpc}
 
 # Create a DataFrame from the dictionary
-df = pd.DataFrame(data)
+cars_DataFrame = pd.DataFrame(data)
 
 # Print the DataFrame
-print(df)
+print(cars_DataFrame)
+
+
+
+# Specify the index (row labels) for the DataFrame
+
+# Create a list with the row labels
+rowLabels = ['US', 'AUS', 'JPN', 'IN', 'RU', 'MOR', 'EG']
+
+# Create a DataFrame from the dictionary with the row labels
+cars_DataFrame = pd.DataFrame(data, index=rowLabels) # or cars_DataFrame.index = rowLabels
+ 
+# Print the DataFrame
+print(cars_DataFrame)
