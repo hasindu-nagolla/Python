@@ -45,3 +45,6 @@ print(sample_data.iloc[2, 1])
 # print the name and mark of the rows with labels 2 and 3, using loc
 print(sample_data.loc[[2, 3], ['name', 'mark']])
 print(sample_data.iloc[[2, 3], [1, 3]])
+
+# we can use : (slice) going from the beginning or to the end
+print(sample_data.loc[: , ['name'] ])
