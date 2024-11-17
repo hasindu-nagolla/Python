@@ -59,7 +59,6 @@
     <a href="https://roadmap.sh/python">Python Roadmap</a>
 </div>
 
-
 <h4>🛠️ Prerequisites:</h4>
 
 <ul>
@@ -101,6 +100,5 @@
 <pre><code>pip install matplotlib numpy</code></pre>
 <li>Start exploring the course content! Each section is organized in separate Python files.</li>
 </ol>
-
 
 <h3>🎉 Happy coding! </h3>
