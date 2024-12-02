@@ -1,4 +1,4 @@
-# Type Conversion in Python - Type conversion is the process of converting one data type into another data type.
+# Type Conversion(Typecasting) in Python - Type conversion is the process of converting one data type into another data type.
 
 # Converting int to float
 

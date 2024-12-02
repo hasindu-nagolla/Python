@@ -1,4 +1,4 @@
-# Break and Continue in While Loop is used to control the flow of the loop.
+# Break and Continue in While Loop is used to control the flow of the loop. ( also knows as loop control statements)
 
 # Break statement - is used to exit the loop before the loop ends.
 
