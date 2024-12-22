@@ -1,12 +1,15 @@
 # Set is a collection of unordered elements. It is mutable and has no duplicate elements.
 
-# Create a set. numbers = {1, 2, 3, 4, 5}
+# Create a set. 
+
+numbers = {1, 2, 3, 4, 5}
 
 # same to the dictionary, but don't have key-value pairs.
 mySet = {"Hello", "World", "Hello"}
 
 # see it will not have duplicate elements. The above set has two "Hello" elements, but it will only have one.
 print(mySet)
+print(type(mySet)) # Check type of the set.
 
 mySet.add("Python")  # Add a new element to the set.
 print(mySet)
@@ -16,7 +19,6 @@ print(mySet)
 # ===============================================================================================
 
 # add two sets together.
-
 set1 = {1, 2, 3, 4, 5}
 set2 = {6, 7, 8, 9, 10}
 
@@ -31,10 +33,33 @@ print(addedSet1)
 # ===============================================================================================
 
 # Subtract two sets.
-
 set5 = {1, 2, 3, 4, 5}
 set6 = {4, 5, 6, 7, 8}
 
 # Subtract set6 from set5. it will return a new set with the elements that are in set5 but not in set6.
 SubtractedSet = set5 - set6
 print(SubtractedSet)
+
+# Get the length of the set.
+print(len(SubtractedSet))
+
+# Set items can be of any data type.
+set3 = {1, 2, 3, "Hello", "World", (4, 5, 6)}
+print(set3)
+
+# ===============================================================================================
+
+# Accessing Elements of a Set 
+
+## We cannot access individual elements of a set. We can only access all the elements together using a loop.
+exSet = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10}
+
+for i in exSet:
+    print(i)
+
+## Check the specific element is in the set or not.
+print(1 in exSet)
+
+## Check the specific element is not in the set.
+print(11 not in exSet) 
+
