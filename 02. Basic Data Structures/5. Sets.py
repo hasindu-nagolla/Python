@@ -63,3 +63,43 @@ print(1 in exSet)
 ## Check the specific element is not in the set.
 print(11 not in exSet) 
 
+# ===============================================================================================
+
+# Add items to a set
+
+## Add elements to the set using the add() method.
+createdSet = {1, 2, 3, 4, 5}
+createdSet.add(6)
+print(createdSet)
+
+## Add items from another set to the current set using the update() method.
+createNewSet = {6, 7, 8, 9, 10}
+createdSet.update(createNewSet)
+print(createdSet)
+
+createNewSet.update([11, 12, 13, 14, 15]) # also we can add items from a list like this.
+print(createNewSet)
+
+# ===============================================================================================
+
+# Remove items from a set
+
+## Remove an item from the set using the remove() method.
+set7 = {1, 2, 3, 4, 5}
+set7.remove(5)
+print(set7)
+
+## Remove an item from the set using the discard() method.
+set8 = {1, 2, 3, 4, 5}
+set8.discard(4)
+print(set8)
+
+## Clear the set using the clear() method.
+set9 = {1, 2, 3, 4, 5}
+set9.clear()
+print(set9)
+
+## Delete the set using the del keyword.
+set10 = {1, 2, 3, 4, 5}
+del set10
+# print(set10)  # It will raise an error because the set is deleted.
