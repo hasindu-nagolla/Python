@@ -1,5 +1,8 @@
-# In append file, the contents are added to the end of the file.
+# In append mode, the contents are added to the end of the file.
 
+# ========================================================
+# Section 1: Append Mode in Files
+# ========================================================
 
 with open("test.txt", "a") as myFile:
     myFile.write(
@@ -11,4 +14,15 @@ with open("test.txt", "a") as myFile:
     myFile.write(
         "Closing files: Always close files after use, preferably with a with statement." + "\n")
 
-# in this method, automatically closes the file after the block of code is executed. we dont need to close the file explicitly. its called context manager.
+# ========================================================
+# Explanation: 
+# In this method, the file is automatically closed after the block of code is executed. 
+# This is called a context manager, and it ensures that the file is properly closed without the need for explicit closing.
+# ========================================================
+
+
+# ========================================================
+# Author: Hasindu Nagolla
+# Copyright © 2024 Hasindu Nagolla
+# LinkedIn: https://www.linkedin.com/in/hasindume/
+# ========================================================
