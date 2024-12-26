@@ -1,8 +1,9 @@
-# try-except block to handle exceptions
+# ========================================================
+# Section 1: Try-Except Block to Handle Exceptions
+# ========================================================
 from os import path
 
 fileName = './Error Handling/Python Error Handling Guide2.txt'
-
 
 x = 10
 y = 1
@@ -14,15 +15,17 @@ try:
     with open(fileName) as file:
         print(file.readline())
 
-except ZeroDivisionError:  # ZeroDivisionError is raised when the second number is zero.
-    print("input error")
-except FileNotFoundError:  # FileNotFoundError is raised when the file is not found.
+except ZeroDivisionError:  # Raised when the second number is zero.
+    print("Input error")
+except FileNotFoundError:  # Raised when the file is not found.
     print("File not found")
-except Exception:  # Exception is the base class for all exceptions. It handles all exceptions. if you define this block at the beginning, it will catch all exceptions and the other blocks will not be executed.
+except Exception:  # Base class for all exceptions.
     print("Unknown error")
 
+# ========================================================
+# Section 2: Other Common Exceptions
+# ========================================================
 
-# other exceptions are:
 # 1. ImportError: Raised when an import statement fails.
 # 2. IndexError: Raised when a sequence subscript is out of range.
 # 3. KeyError: Raised when a dictionary key is not found.
@@ -45,7 +48,13 @@ except Exception:  # Exception is the base class for all exceptions. It handles 
 # 20. ProcessLookupError: Raised when a given process doesn't exist.
 # 21. TimeoutError: Raised when a system function times out.
 # 22. ArithmeticError: Raised when numeric calculations fail.
-# 23. FloatingPointError: Raised when a floating point calculation fails.
-# 24. OverflowError: Raised when a calculation exceeds maximum limit for a numeric type.
-# 26. SystemError: Raised when interpreter detects internal error.
-# 27. ReferenceError: Raised when a weak reference proxy is used to access a garbage collected referent.
+# 23. FloatingPointError: Raised when a floating-point calculation fails.
+# 24. OverflowError: Raised when a calculation exceeds the maximum limit for a numeric type.
+# 25. SystemError: Raised when the interpreter detects an internal error.
+# 26. ReferenceError: Raised when a weak reference proxy is used to access a garbage-collected referent.
+
+# ========================================================
+# Author: Hasindu Nagolla
+# Copyright © 2024 Hasindu Nagolla
+# LinkedIn: https://www.linkedin.com/in/hasindume/
+# ========================================================
