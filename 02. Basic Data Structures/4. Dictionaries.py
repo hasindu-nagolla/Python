@@ -1,3 +1,9 @@
+# Python Dictionary Tutorial
+
+# ========================================================
+# Section 1: Basics of Dictionaries
+# ========================================================
+
 # Dictionaries is a collection of key-value pairs.
 
 # Create a dictionary.
@@ -26,7 +32,9 @@ print(y)
 print(myDictioanry.keys())  # Get all the keys of the dictionary.
 print(myDictioanry.values())  # Get all the values of the dictionary.
 
-# ===============================================================================================
+# ========================================================
+# Section 2: Adding Lists and Complex Data Types
+# ========================================================
 
 myDictioanry2 = {10: "Science", 20: "Maths", 30: "History", 40: "English"}
 
@@ -34,7 +42,9 @@ myDictioanry2 = {10: "Science", 20: "Maths", 30: "History", 40: "English"}
 myDictioanry2[50] = ["Biology", "Chemistry"]
 print(myDictioanry2)
 
-# ===============================================================================================
+# ========================================================
+# Section 3: Accessing Values Safely
+# ========================================================
 
 myDictioanry3 = {1: 'A', 2: 'B'}
 
@@ -48,7 +58,9 @@ print(getValue)
 getValue2 = myDictioanry3.get(4, 0)
 print(getValue2)
 
-# ===============================================================================================
+# ========================================================
+# Section 4: Deleting and Clearing Dictionary Elements
+# ========================================================
 
 # Delete a key-value pair from the dictionary.
 
@@ -62,7 +74,9 @@ print(myDictioanry4)
 myDictioanry4.clear()  # Clear the dictionary.
 print(myDictioanry4)
 
-# ===============================================================================================
+# ========================================================
+# Section 5: Handling Complex Data Types
+# ========================================================
 
 #  Add complex data types as values to the dictionary.
 
@@ -84,12 +98,12 @@ print(xDic)
 xDic.update({'b': 2024})  # Update the value of the key 'b'.
 print(xDic)
 
-
-
 # see it, you do anything to y, it will affect the dictionary. but it will not affect if "a" is a basic data type. like integer.
 print(xDic)
 
-# ===============================================================================================
+# ========================================================
+# Section 6: Nested Dictionaries
+# ========================================================
 
 # Dictionary of dictionaries.
 
@@ -111,18 +125,29 @@ europe['sri lanka'] = data
 # print europe dictionary.
 print(europe)
 
+# ========================================================
+# Section 7: Looping Through Dictionaries
+# ========================================================
+
 # Loop Dictionaries in Python.
 
 numbersDictioanry = {1: 'One', 2: 'Two', 3: 'Three', 4: 'Four', 5: 'Five'}
 
 for x in numbersDictioanry:
     print(x)  # Print the keys of the dictionary.
-    
+
 for x in numbersDictioanry:
     print(numbersDictioanry[x])  # Print the values of the dictionary.
 
 for x in numbersDictioanry.values():
     print(x)  # Also can use .values() to get the values of the dictionary.
-    
+
 for x, y in numbersDictioanry.items():
     print(x, y)  # Print the both key-value pairs of the dictionary.
+
+
+# ========================================================
+# Author: Hasindu Nagolla
+# Copyright © 2024 Hasindu Nagolla
+# LinkedIn: https://www.linkedin.com/in/hasindume/
+# ========================================================

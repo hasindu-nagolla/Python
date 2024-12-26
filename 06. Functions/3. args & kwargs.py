@@ -1,6 +1,6 @@
 """ In Python, *args and **kwargs are used to pass a variable number of arguments to a function. """
 
-# *args is used to pass a variable number of non-keyword arguments to a function.It allows you to pass any number of positional arguments
+# *args(arguments) is used to pass a variable number of non-keyword arguments to a function.It allows you to pass any number of positional arguments
 
 
 def my_function(*args):
