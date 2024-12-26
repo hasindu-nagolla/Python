@@ -1,16 +1,22 @@
-# Function in Python is a block of code that only runs when it is called. Is defined using the def keyword.
+# Function in Python
+# ============================================================================================================
+# Function in Python is a block of code that only runs when it is called. It is defined using the def keyword.
+# ============================================================================================================
 
-# Define a simple function that prints a message.
+# ========================================================
+# Section 1: Simple Function
+# ========================================================
 
 def my_function():
     print("Hello from a function")
     
 my_function() # Calling the function.
 
-# Define a simple function for calculating the grade of a student based on the marks
+# ========================================================
+# Section 2: Function to Calculate Grade
+# ========================================================
 
 def myFunction(marks, subject):
-    
     print("Subject: ", subject)
     if marks < 0 or marks > 100:
         print("Marks are invalid")
@@ -26,5 +32,12 @@ def myFunction(marks, subject):
         print("A")
     
 myFunction(45, "Maths") # Calling the function with subject name.
-myFunction(marks= 75, subject= "Science") # Calling the function with subject name and marks. its called named argument. in this method we can pass the value of argument in any order.
-# myFunction(marks= 75, "Science") # cannot write positional argument after named argument. all named argument should be written after positional argument.)
+myFunction(marks= 75, subject= "Science") # Calling the function with subject name and marks. It's called named argument. In this method, we can pass the value of arguments in any order.
+# myFunction(marks= 75, "Science") # Cannot write positional argument after named argument. All named arguments should be written after positional arguments.
+
+
+# ========================================================
+# Author: Hasindu Nagolla
+# Copyright © 2024 Hasindu Nagolla
+# LinkedIn: https://www.linkedin.com/in/hasindume/
+# ========================================================
