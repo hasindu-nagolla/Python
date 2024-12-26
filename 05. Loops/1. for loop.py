@@ -1,4 +1,9 @@
-# For Loop in Python is used to iterate over a sequence (list, tuple, string) or other iterable objects. or else we can call foreach loop.
+# ========================================================
+# Section 1: For Loop with List
+# ========================================================
+
+# For Loop in Python is used to iterate over a sequence (list, tuple, string) or other iterable objects. 
+# Or else, we can call it a foreach loop.
 
 x = [1, 2, 3, 4, 5]  # List
 
@@ -11,17 +16,25 @@ for item in x:
 
 # We can also use this method to get the value of the list.
 
+# ========================================================
+# Section 2: Using enumerate() to Get Index and Value
+# ========================================================
+
 # enumerate() function is used to get the index and value of the list.
 for index, item in enumerate(x):
     print(index, item)
 
-# if we need to run a loop for a specific number of times then we can use the range() function.
+# ========================================================
+# Section 3: Using range() for a Specific Number of Iterations
+# ========================================================
 
+# If we need to run a loop for a specific number of times, then we can use the range() function.
 for item in range(0, 10):
     print(type)
 
-
-# We also can iterate the dictionary using a for loop.
+# ========================================================
+# Section 4: Iterating a Dictionary
+# ========================================================
 
 myDictionary = {
     "Age": 25,
@@ -35,7 +48,9 @@ for key, value in myDictionary.items():
     print(key, value)
 
 
-# iterate set using for loop
+# ========================================================
+# Section 5: Iterating a Set
+# ========================================================
 
 mySet = {
     1,
@@ -50,10 +65,19 @@ for item in mySet:
     print(item)
 
 
-# iterate tuple using for loop
+# ========================================================
+# Section 6: Iterating a Tuple
+# ========================================================
 
 myTuple = ("Hasindu", 2, 3, "BSE", 5)
 
 for item in myTuple:
     # tuple is an ordered collection of items, so the output will be in the order of the input.
     print(item)
+
+
+# ========================================================
+# Author: Hasindu Nagolla
+# Copyright © 2024 Hasindu Nagolla
+# LinkedIn: https://www.linkedin.com/in/hasindume/
+# ========================================================
