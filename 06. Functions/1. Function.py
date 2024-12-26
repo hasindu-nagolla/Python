@@ -1,6 +1,13 @@
-# Function in Python is a block of code that only runs when it is called.
+# Function in Python is a block of code that only runs when it is called. Is defined using the def keyword.
 
-# Define a function for calculating the grade of a student based on the marks
+# Define a simple function that prints a message.
+
+def my_function():
+    print("Hello from a function")
+    
+my_function() # Calling the function.
+
+# Define a simple function for calculating the grade of a student based on the marks
 
 def myFunction(marks, subject):
     
