@@ -1,4 +1,8 @@
-# Break and Continue in While Loop is used to control the flow of the loop. ( also knows as loop control statements)
+# Break and Continue in While Loop is used to control the flow of the loop. (also known as loop control statements)
+
+# ========================================================
+# Section 1: Break Statement
+# ========================================================
 
 # Break statement - is used to exit the loop before the loop ends.
 
@@ -11,8 +15,11 @@ while True:  # This loop will run until we break it.
     print("Marks is: ", marks)
     marks += 1
 
-# =====================================================================================================================
-print("Also we can use break to for loop as well.")
+# ========================================================
+# Section 2: Break in For Loop
+# ========================================================
+
+# Also we can use break to for loop as well.
 
 createList = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 
@@ -22,6 +29,9 @@ for item in createList:
 
     print("Item is: ", item)
 
+# ========================================================
+# Section 3: Continue Statement
+# ========================================================
 
 # Continue statement - is used to skip the current iteration of the loop and continue with the next iteration.
 
@@ -38,10 +48,11 @@ for i in x:
     print("Item is: ", i)
 
 
-# in while loop
+# ========================================================
+# Section 4: Continue in While Loop
+# ========================================================
 
 print("Continue statement in while loop.")
-
 
 while count < len(x) - 1:
     print("Index is: ", count)
@@ -54,3 +65,10 @@ while count < len(x) - 1:
 
     print("Item is: ", i)
     count += 1
+
+
+# ========================================================
+# Author: Hasindu Nagolla
+# Copyright © 2024 Hasindu Nagolla
+# LinkedIn: https://www.linkedin.com/in/hasindume/
+# ========================================================
