@@ -1,5 +1,9 @@
-""" Grade statement in Python used to exit a function and go back to the place from where it was called. """
+# Return statement in Python
 
+# =========================================================
+# Return statement in Python is used to exit a function and 
+# go back to the place from where it was called.
+# =========================================================
 
 def get_grade(marks):
     if marks < 0 or marks > 100:
@@ -17,6 +21,11 @@ def get_grade(marks):
 
     return grade
 
-
 grade = get_grade(85)
 print(grade)
+
+# =========================================================
+# Author: Hasindu Nagolla
+# Copyright © 2024 Hasindu Nagolla
+# LinkedIn: https://www.linkedin.com/in/hasindume/
+# =========================================================
