@@ -1,6 +1,7 @@
 # ========================================================
 # Section 1: While Loop
 # ========================================================
+
 # While Loop in Python is used to execute a block of statements repeatedly until a given condition is satisfied. 
 # And when the condition becomes false, the line immediately after the loop in the program is executed.
 
