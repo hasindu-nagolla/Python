@@ -1,3 +1,9 @@
+# Set Tutorial
+
+# ========================================================
+# Section 1: Basics of Sets
+# ========================================================
+
 # Set is a collection of unordered elements. It is mutable and has no duplicate elements.
 
 # Create a set. 
@@ -16,7 +22,9 @@ print(mySet)
 mySet.remove("Hello")  # Remove an element from the set.
 print(mySet)
 
-# ===============================================================================================
+# ========================================================
+# Section 2: Union of Sets
+# ========================================================
 
 # add two sets together.
 set1 = {1, 2, 3, 4, 5}
@@ -30,7 +38,9 @@ print(addedSet)
 addedSet1 = set1 | set2
 print(addedSet1)
 
-# ===============================================================================================
+# ========================================================
+# Section 3: Subtraction of Sets
+# ========================================================
 
 # Subtract two sets.
 set5 = {1, 2, 3, 4, 5}
@@ -47,9 +57,10 @@ print(len(SubtractedSet))
 set3 = {1, 2, 3, "Hello", "World", (4, 5, 6)}
 print(set3)
 
-# ===============================================================================================
+# ========================================================
+# Section 4: Accessing Elements
+# ========================================================
 
-# Accessing Elements of a Set 
 
 ## We cannot access individual elements of a set. We can only access all the elements together using a loop.
 exSet = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10}
@@ -63,9 +74,9 @@ print(1 in exSet)
 ## Check the specific element is not in the set.
 print(11 not in exSet) 
 
-# ===============================================================================================
-
-# Add items to a set
+# ========================================================
+# Section 5: Adding Items
+# ========================================================
 
 ## Add elements to the set using the add() method.
 createdSet = {1, 2, 3, 4, 5}
@@ -80,9 +91,9 @@ print(createdSet)
 createNewSet.update([11, 12, 13, 14, 15]) # also we can add items from a list like this.
 print(createNewSet)
 
-# ===============================================================================================
-
-# Remove items from a set
+# ========================================================
+# Section 6: Removing Items
+# ========================================================
 
 ## Remove an item from the set using the remove() method.
 set7 = {1, 2, 3, 4, 5}
@@ -103,3 +114,9 @@ print(set9)
 set10 = {1, 2, 3, 4, 5}
 del set10
 # print(set10)  # It will raise an error because the set is deleted.
+
+# ========================================================
+# Author: Hasindu Nagolla
+# Copyright © 2024 Hasindu Nagolla
+# LinkedIn: https://www.linkedin.com/in/hasindume/
+# ========================================================
