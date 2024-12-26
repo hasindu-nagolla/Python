@@ -1,3 +1,9 @@
+# Python List Tutorial
+
+# ========================================================
+# Section 1: Basics of Lists
+# ========================================================
+
 # Lists are used to store multiple items in a single variable.
 
 my_list = [1, 2, 3, 4, 5]
@@ -22,6 +28,10 @@ print(my_list)
 my_list.pop()    # Remove the last element of the list.
 print(my_list)
 
+# ========================================================
+# Section 2: Concatenation and Membership
+# ========================================================
+
 # We can concatenate two lists. but we can not - or * two lists.
 z = my_list + my_list2
 print(z)
@@ -29,7 +39,9 @@ print(z)
 is_10_in_my_list = 10 in my_list  # Check if 10 is in the list.
 print(is_10_in_my_list)
 
-# ===============================================================================================
+# ========================================================
+# Section 3: Advanced Operations on Lists
+# ========================================================
 
 # Create a new list.
 
@@ -44,3 +56,10 @@ list.reverse()  # Reverse the list.
 print(list)
 list.sort()  # Sort the list.
 print(list)
+
+
+# ========================================================
+# Author: Hasindu Nagolla
+# Copyright © 2024 Hasindu Nagolla
+# LinkedIn: https://www.linkedin.com/in/hasindume/
+# ========================================================
