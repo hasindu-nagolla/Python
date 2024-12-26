@@ -144,3 +144,10 @@ for x in numbersDictioanry.values():
 
 for x, y in numbersDictioanry.items():
     print(x, y)  # Print the both key-value pairs of the dictionary.
+
+
+# ========================================================
+# Author: Hasindu Nagolla
+# Copyright © 2024 Hasindu Nagolla
+# LinkedIn: https://www.linkedin.com/in/hasindume/
+# ========================================================
