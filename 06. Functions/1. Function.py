@@ -1,4 +1,5 @@
 # Function in Python
+
 # ============================================================================================================
 # Function in Python is a block of code that only runs when it is called. It is defined using the def keyword.
 # ============================================================================================================
@@ -30,6 +31,7 @@ def myFunction(marks, subject):
         print("B")
     else:
         print("A")
+        
     
 myFunction(45, "Maths") # Calling the function with subject name.
 myFunction(marks= 75, subject= "Science") # Calling the function with subject name and marks. It's called named argument. In this method, we can pass the value of arguments in any order.
