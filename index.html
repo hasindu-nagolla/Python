@@ -3,79 +3,154 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Fun Facts App</title>
+    <meta name="description" content="Explore Hasindu Nagolla's comprehensive Python repository, featuring tutorials and examples on variables, data structures, OOP, functions, error handling, and more.">
+    <meta name="keywords" content="Python, Python tutorials, Python examples, Variables, Data Structures, OOP, Functions, Error Handling">
+    <meta name="author" content="Hasindu Nagolla">
+    <meta name="robots" content="index, follow">
+    <meta property="og:title" content="Hasindu Nagolla - Python Repository">
+    <meta property="og:description" content="A comprehensive guide to Python tutorials and examples.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://github.com/hasindu-nagolla/Python">
+    <meta property="og:image" content="https://hasindu-nagolla-python-repo.com/assets/preview.png">
+    <title>Hasindu Nagolla - Python Repository</title>
     <style>
         body {
-            font-family: Arial, sans-serif;
-            background-color: #f0f0f0;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
+            font-family: 'Arial', sans-serif;
             margin: 0;
+            padding: 0;
+            background-color: #f0f4f8;
+            color: #333;
         }
-
-        .container {
-            text-align: center;
-            background-color: #fff;
-            padding: 20px;
-            border-radius: 8px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-        }
-
-        #fact-display {
-            font-size: 18px;
-            color: #555;
-            margin-bottom: 20px;
-            min-height: 60px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-        }
-
-        button {
-            background-color: #007bff;
+        header {
+            background: linear-gradient(90deg, #4CAF50, #81C784);
             color: white;
-            border: none;
-            padding: 12px 24px;
-            font-size: 16px;
-            border-radius: 5px;
-            cursor: pointer;
-            transition: background-color 0.3s ease;
+            padding: 30px;
+            text-align: center;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
         }
-
-        button:hover {
-            background-color: #0056b3;
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+        }
+        header p {
+            margin-top: 10px;
+            font-size: 1.2rem;
+        }
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding: 20px;
+            gap: 20px;
+        }
+        .section {
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            width: 300px;
+            padding: 20px;
+            transition: transform 0.2s;
+        }
+        .section:hover {
+            transform: translateY(-5px);
+        }
+        .section h2 {
+            margin-top: 0;
+            font-size: 1.5rem;
+            color: #4CAF50;
+        }
+        .section p {
+            font-size: 1rem;
+            color: #666;
+        }
+        a {
+            color: #4CAF50;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        footer {
+            text-align: center;
+            margin-top: 40px;
+            padding: 20px;
+            background-color: #4CAF50;
+            color: white;
         }
     </style>
 </head>
 <body>
+    <header>
+        <h1>Hasindu Nagolla - Python Repository</h1>
+        <p>A comprehensive guide to Python tutorials and examples</p>
+    </header>
+
     <div class="container">
-        <h1>Fun Facts About Me</h1>
-        <div id="fact-display"></div>
-        <button id="new-fact-btn">Show Another Fun Fact</button>
+        <div class="section">
+            <h2><a href="01. Variables/Variables.py">Variables</a></h2>
+            <p>Learn about variables in Python and how to use them effectively.</p>
+        </div>
+
+        <div class="section">
+            <h2><a href="02. Basic Data Structures/">Basic Data Structures</a></h2>
+            <p>Explore Python's built-in data structures like lists, dictionaries, and tuples.</p>
+        </div>
+
+        <div class="section">
+            <h2><a href="03. Comprehension/">Comprehension</a></h2>
+            <p>Understand list, dictionary, and set comprehensions with examples.</p>
+        </div>
+
+        <div class="section">
+            <h2><a href="04. Conditional Statements/">Conditional Statements</a></h2>
+            <p>Master Python's conditional statements like if, else, and elif.</p>
+        </div>
+
+        <div class="section">
+            <h2><a href="05. Loops/">Loops</a></h2>
+            <p>Get familiar with loops in Python, including for, while, and nested loops.</p>
+        </div>
+
+        <div class="section">
+            <h2><a href="06. Functions/">Functions</a></h2>
+            <p>Learn about defining and using functions in Python.</p>
+        </div>
+
+        <div class="section">
+            <h2><a href="07. File input output/">File Input/Output</a></h2>
+            <p>Work with file operations like reading, writing, and appending in Python.</p>
+        </div>
+
+        <div class="section">
+            <h2><a href="08. OOP/">Object-Oriented Programming (OOP)</a></h2>
+            <p>Dive into classes, objects, inheritance, encapsulation, and polymorphism.</p>
+        </div>
+
+        <div class="section">
+            <h2><a href="09. Method Types/">Method Types</a></h2>
+            <p>Understand different method types, including instance, class, and static methods.</p>
+        </div>
+
+        <div class="section">
+            <h2><a href="10. Error Handling/">Error Handling</a></h2>
+            <p>Learn to handle exceptions and create custom error-handling mechanisms.</p>
+        </div>
+
+        <div class="section">
+            <h2><a href="11. Modules/">Modules</a></h2>
+            <p>Explore Python modules, how to create them, and their practical usage.</p>
+        </div>
+
+        <div class="section">
+            <h2><a href="12. Dependencies/">Dependencies</a></h2>
+            <p>Understand dependencies and how to manage them effectively in Python projects.</p>
+        </div>
     </div>
-    <script>
-        const facts = [
-            "I love hiking and have traveled to five national parks.",
-            "I once hiked the entire Appalachian Trail.",
-            "I have a collection of over 100 hiking trail maps.",
-            "I can identify over 50 different bird species by their calls.",
-            "I have a passion for photography, especially landscapes."
-        ];
 
-        const factDisplay = document.getElementById('fact-display');
-        const newFactBtn = document.getElementById('new-fact-btn');
-
-        function showRandomFact() {
-            const randomIndex = Math.floor(Math.random() * facts.length);
-            factDisplay.textContent = facts[randomIndex];
-        }
-
-        newFactBtn.addEventListener('click', showRandomFact);
-
-        // Show a fact when the page loads
-        showRandomFact();
-    </script>
+    <footer>
+        <p>&copy; 2025 Hasindu Nagolla. All rights reserved.</p>
+    </footer>
 </body>
 </html>
+
+
