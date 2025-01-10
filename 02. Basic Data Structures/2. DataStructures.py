@@ -33,5 +33,5 @@ print("Dictionary:", my_dict)
 # ========================================================
 # Author: Hasindu Nagolla
 # Copyright © 2024 Hasindu Nagolla
-# LinkedIn: https://www.linkedin.com/in/hasindume/
+# LinkedIn: https://www.linkedin.com/in/hasindu-nagolla/
 # ========================================================

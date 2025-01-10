@@ -29,8 +29,10 @@ print(list1[-1])   # Output: 10
 # but we cannot slice dictionaries because dictionaries are unordered.
 
 
+
+
 # ========================================================
 # Author: Hasindu Nagolla
 # Copyright © 2024 Hasindu Nagolla
-# LinkedIn: https://www.linkedin.com/in/hasindume/
+# LinkedIn: https://www.linkedin.com/in/hasindu-nagolla/
 # ========================================================
