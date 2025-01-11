@@ -42,8 +42,10 @@ job = "Security" if height >= 5.5 else "Labor"
 print(job)
 
 
+
 # ========================================================
 # Author: Hasindu Nagolla
 # Copyright © 2024 Hasindu Nagolla
-# LinkedIn: https://www.linkedin.com/in/hasindume/
+# LinkedIn: https://www.linkedin.com/in/hasindu-nagolla/
 # ========================================================
+
