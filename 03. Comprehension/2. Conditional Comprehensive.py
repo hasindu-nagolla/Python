@@ -44,8 +44,9 @@ evenSquareDict = {x: x**2 for x in range(10) if x % 2 == 0}
 print("Dictionary of Even Numbers and Their Squares:", evenSquareDict)
 
 
+
 # ========================================================
 # Author: Hasindu Nagolla
 # Copyright © 2024 Hasindu Nagolla
-# LinkedIn: https://www.linkedin.com/in/hasindume/
+# LinkedIn: https://www.linkedin.com/in/hasindu-nagolla/
 # ========================================================
