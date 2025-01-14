@@ -18,8 +18,9 @@ with open("test.txt", "a") as myFile:
 # This is called a context manager, and it ensures that the file is properly closed without the need for explicit closing.
 # ========================================================
 
+
 # ========================================================
 # Author: Hasindu Nagolla
 # Copyright © 2024 Hasindu Nagolla
-# LinkedIn: https://www.linkedin.com/in/hasindume/
+# LinkedIn: https://www.linkedin.com/in/hasindu-nagolla/
 # ========================================================
