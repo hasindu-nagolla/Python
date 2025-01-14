@@ -23,8 +23,10 @@ for i in range(1, 11):
 
 # In loop nesting in Python, we can put any type of loop inside another loop. For example, a for loop can be inside a while loop.
 
+
+
 # ========================================================
 # Author: Hasindu Nagolla
 # Copyright © 2024 Hasindu Nagolla
-# LinkedIn: https://www.linkedin.com/in/hasindume/
+# LinkedIn: https://www.linkedin.com/in/hasindu-nagolla/
 # ========================================================
