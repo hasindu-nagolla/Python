@@ -61,8 +61,10 @@ dog1.feed()  # Calling the `feed` method from the Mamel class
 # Multiple inheritance allows a class to inherit from more than one parent class.
 # In this example, the Dog class inherits from both Animal and Mamel classes.
 
+
+
 # ========================================================
 # Author: Hasindu Nagolla
 # Copyright © 2024 Hasindu Nagolla
-# LinkedIn: https://www.linkedin.com/in/hasindume/
+# LinkedIn: https://www.linkedin.com/in/hasindu-nagolla/
 # ========================================================
