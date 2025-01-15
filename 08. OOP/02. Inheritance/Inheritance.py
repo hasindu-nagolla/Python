@@ -54,8 +54,9 @@ print(dog1.breed)  # Accessing the 'breed' attribute from the parent class
 # ========================================================
 # Overriding is a feature that allows us to redefine methods of the parent class in the child class.
 
+
 # ========================================================
 # Author: Hasindu Nagolla
 # Copyright © 2024 Hasindu Nagolla
-# LinkedIn: https://www.linkedin.com/in/hasindume/
+# LinkedIn: https://www.linkedin.com/in/hasindu-nagolla/
 # ========================================================

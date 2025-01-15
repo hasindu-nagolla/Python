@@ -53,8 +53,10 @@ except Exception:  # Base class for all exceptions.
 # 25. SystemError: Raised when the interpreter detects an internal error.
 # 26. ReferenceError: Raised when a weak reference proxy is used to access a garbage-collected referent.
 
+
+
 # ========================================================
 # Author: Hasindu Nagolla
 # Copyright © 2024 Hasindu Nagolla
-# LinkedIn: https://www.linkedin.com/in/hasindume/
+# LinkedIn: https://www.linkedin.com/in/hasindu-nagolla/
 # ========================================================
