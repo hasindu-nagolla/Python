@@ -101,4 +101,4 @@
 <li>Start exploring the course content! Each section is organized in separate Python files.</li>
 </ol>
 
-<h3>🎉 Happy coding! </h3>
+<h3>🎉 Happy coding... </h3>
